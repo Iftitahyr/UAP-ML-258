@@ -158,6 +158,12 @@ Aplikasi berbasis **Streamlit** memungkinkan pengguna untuk memprediksi churn pe
 * **Prediksi**: Setelah mengisi form, pengguna dapat menekan tombol untuk mendapatkan prediksi churn pelanggan.
 * **Hasil**: Prediksi churn ditampilkan dengan tingkat probabilitas dan rekomendasi untuk tindakan lebih lanjut.
 
+---
+### Link Live Demo
+
+Coba aplikasi prediksi kesuksesan akademik mahasiswa secara langsung dengan mengunjungi tautan di bawah ini:
+
+[🔗 **Demo Aplikasi Sederhana Streamlit**](https://iftitahyr-uap-ml-258-srcapp-gnyoyt.streamlit.app/)
 
 ---
 
