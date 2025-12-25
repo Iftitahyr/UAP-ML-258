@@ -121,12 +121,12 @@ Jika Anda ingin melatih model dari awal, jalankan file Notebook yang tersedia di
 
 Berikut adalah tabel evaluasi model untuk **MLP**, **TabNet**, dan **FT-Transformer** berdasarkan hasil **Classification Report** yang Anda berikan:
 
-| Metric        | MLP (Churn) | MLP (No Churn) | TabNet (Churn) | TabNet (No Churn) | FT-Transformer (Churn) | FT-Transformer (No Churn) |
-| ------------- | ----------- | -------------- | -------------- | ----------------- | ---------------------- | ------------------------- |
-| **Precision** | 0.00        | 0.90           | 0.42           | 0.91              | 0.00                   | 0.90                      |
-| **Recall**    | 0.00        | 1.00           | 0.09           | 0.99              | 0.00                   | 1.00                      |
-| **F1-Score**  | 0.00        | 0.95           | 0.14           | 0.94              | 0.00                   | 0.95                      |
-| **Accuracy**  | **0.90**    | **0.90**       | **0.90**       | **0.90**          | **0.90**               | **0.90**                  |
+| **Model**                | **Accuracy** | **Hasil Analysis** |
+| ------------------------ | ------------ | ------------------ |
+| **MLP (Neural Network)** | **90%**      | Meskipun MLP berhasil mencapai accuracy yang tinggi, namun performanya dalam mendeteksi churn sangat buruk. Precision dan Recall untuk kategori "Churn" sangat rendah (0.00), yang menunjukkan bahwa model ini tidak mampu mendeteksi pelanggan yang churn dengan baik. Performa model ini tidak seimbang antara kedua kategori, yaitu churn dan no churn. |
+| **TabNet**               | **90%**      | TabNet menunjukkan hasil yang lebih baik daripada MLP pada kategori "No Churn", dengan Precision 0.91 dan Recall 0.99. Namun, model ini masih mengalami kesulitan dalam mengklasifikasikan pelanggan yang churn, dengan Precision dan Recall yang lebih rendah pada kategori "Churn" (0.42 dan 0.09). Meskipun memiliki accuracy yang tinggi, performanya dalam mendeteksi churn masih terbatas. |
+| **FT-Transformer**       | **90%**      | FT-Transformer menunjukkan hasil yang sangat baik pada kategori "No Churn" dengan Precision 0.90 dan Recall 1.00. Namun, model ini memiliki kinerja yang sangat buruk dalam mendeteksi churn (0.00), meskipun mencapai accuracy yang tinggi. Model ini sangat terbatas dalam mendeteksi churn secara efektif. |
+
 
 **Keterangan:**
 
