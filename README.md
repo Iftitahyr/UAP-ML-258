@@ -1,7 +1,3 @@
-Berikut adalah pembaruan **README** yang mencakup deskripsi **Customer Churn Prediction Business Dataset** yang Anda berikan:
-
----
-
 # 📊 Customer Churn Prediction System
 
 <img width="435" height="270" alt="image" src="https://github.com/user-attachments/assets/f738bf29-100a-4954-b4a0-efaae185f060" />
